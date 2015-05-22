@@ -9,7 +9,7 @@ task :update do
   system("git clone #{repository_url}")
   system("cp #{project_name}/multiple-select.png app/assets/images/multiple-select.png")
   system("cp #{project_name}/multiple-select.css app/assets/stylesheets/multiple-select.scss")
-  system("cp #{project_name}/jquery.multiple.select.js app/assets/javascripts/jquery.multiple.select.js")
+  system("cp #{project_name}/jquery.multiple.select.js app/assets/javascripts/multiple-select.js")
 
   fixes
 
