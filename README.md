@@ -22,7 +22,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include multiple select javascript
+
+Add to your app/assets/javascripts/application.js
+
+//= require multiple-select
+
+Include multiple select stylesheet
+
+Add to your app/assets/stylesheets/application.css
+
+*= require multiple-select
+
+
+## Updating the gem
+
+rake task designed to ease the maintenance of this gem.
+
+The update task pulls the latest multiple-select code from github and places images, stylesheets and javascripts in the correct gem paths. It also changes background-image properties in the stylesheet to asset pipeline equivalents.
+
+rake update
+
 
 ## Development
 
