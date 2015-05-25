@@ -38,18 +38,6 @@ Add to your js
 
   $('select').multipleSelect();
 
-Example
- "
-  <select multiple="multiple">
-      <option value="1">January</option>
-      ...
-      <option value="12">December</option>
-  </select>
-  <script>
-      $('select').multipleSelect();
-  </script>
-  "
-
 ## Updating the gem
 
 rake task designed to ease the maintenance of this gem.
