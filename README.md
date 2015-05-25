@@ -39,7 +39,7 @@ Add to your js
   $('select').multipleSelect();
 
 Example
-
+ "
   <select multiple="multiple">
       <option value="1">January</option>
       ...
@@ -48,6 +48,7 @@ Example
   <script>
       $('select').multipleSelect();
   </script>
+  "
 
 ## Updating the gem
 
