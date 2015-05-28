@@ -536,7 +536,7 @@
         isOpen: false,
         placeholder: '',
         selectAll: true,
-        selectAllText: 'Select all',
+        selectAllText: 'Selecionar Todos',
         selectAllDelimiter: ['[', ']'],
         allSelected: 'All selected',
         minimumCountSelected: 3,
